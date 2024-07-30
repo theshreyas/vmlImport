@@ -1,5 +1,5 @@
 {
-    "name": "theshreyas/vmlimport",
+    "name": "theshreyas/vmlImport",
     "description": "Customer Data Import Via Csv and Json Using command line ",
     "type": "magento2-module",
     "version": "1.0.0",
@@ -12,7 +12,7 @@
     ],
     "require": {
         "php": "^8",
-		"magento/framework": ">=103"
+	"magento/framework": ">=103"
     },
 	"autoload": {
         "files": [
