@@ -1,9 +1,19 @@
 {
     "name": "theshreyas/vmlimport",
-    "description": "skeleton module to import customers via CLI",
+    "description": "Customer Data Import Via Csv and Json Using command line ",
     "type": "magento2-module",
     "license": "MIT",
-    "autoload": {
+    "authors": [
+        {
+            "name": "Shreyas",
+            "email": "shr3yas3@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8",
+    	"magento/framework": ">=103"
+    },
+	"autoload": {
         "files": [
             "registration.php"
         ],
@@ -17,8 +27,4 @@
             "email": "shreyasdharav1@gmail.com"
         }
     ],
-    "require": {
-        "php": "^8",
-        "magento/framework": "^103.0"
-    },
 }
