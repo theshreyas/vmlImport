@@ -2,6 +2,7 @@
     "name": "theshreyas/vmlimport",
     "description": "Customer Data Import Via Csv and Json Using command line ",
     "type": "magento2-module",
+    "version": "1.0.0",
     "license": "MIT",
     "authors": [
         {
@@ -18,7 +19,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "Theshreyas\\Import\\": ""
+            "Vml\\Import\\": ""
         }
     },
     "authors": [
@@ -26,5 +27,5 @@
             "name": "Shreyas",
             "email": "shreyasdharav1@gmail.com"
         }
-    ],
+    ]
 }
